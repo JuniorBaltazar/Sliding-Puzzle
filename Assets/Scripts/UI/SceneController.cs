@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Button))]
-public class SceneController : MonoBehaviour
+public sealed class SceneController : MonoBehaviour
 {
     [SerializeField] private int _sceneIndex = 0;
     
@@ -24,5 +24,5 @@ public class SceneController : MonoBehaviour
     private void SetScene()
     {
         SceneManager.LoadScene(_sceneIndex);
-    }    
+    }
 }

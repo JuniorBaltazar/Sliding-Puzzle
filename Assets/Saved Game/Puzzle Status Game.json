@@ -1,0 +1,15 @@
+{
+    "initialLoadGame": true,
+    "puzzleSize": 3,
+    "indices": [
+        0,
+        1,
+        0,
+        5,
+        7,
+        4,
+        3,
+        6,
+        -1
+    ]
+}

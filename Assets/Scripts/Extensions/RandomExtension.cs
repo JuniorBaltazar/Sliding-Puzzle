@@ -1,8 +1,14 @@
 using System;
 
-static class RandomExtension
+public static class RandomExtension
 {
-    public static void Shuffle<T> (this Random rng, T[] array)
+    /// <summary>
+    /// Shuffle values in the Array
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <param name="rng"></param>
+    /// <param name="array"></param>
+    public static void Shuffle<T>(this Random rng, T[] array)
     {
         int n = array.Length;
         while (n > 1) 

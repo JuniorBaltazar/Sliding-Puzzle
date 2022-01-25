@@ -324,5 +324,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac3269958d64e4178a388d9cef81f65c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 3507315948889730320}
+  _pieceText: {fileID: 3507315948889730320}
   _pieceInteraction: {fileID: 4454667605416282055}

@@ -4,24 +4,10 @@ using UnityEngine;
 public static class TransformExtension
 {
     /// <summary>
-    /// Compute the bounding volume of a collection of elements
+    /// Compute the bounding volume of a given transform
     /// </summary>
-    /// <param name="things">collection of elements with transforms</param>
-    /// <returns>Bounding volume containing all the elements</returns>
-    public static Bounds CalculateBounds(IEnumerable<MonoBehaviour> things)
-    {
-        var enumerator = things.GetEnumerator();
-        enumerator.MoveNext();
-        Transform first = enumerator.Current.transform;
-        Bounds collector = new Bounds(first.position, Vector3.zero);
-        foreach(MonoBehaviour b in things)
-        {
-            collector.Encapsulate(b.transform.CalculateBounds());
-        }
-        return collector;
-    }
-
-    /// <returns>Compute the bounding volume of a given transform and all its children</returns>
+    /// <param name="root"></param>
+    /// <returns></returns>
     public static Bounds CalculateBounds(this Transform root)
     {
         Quaternion currentRotation = root.rotation;
@@ -34,29 +20,16 @@ public static class TransformExtension
         float maxY = float.MinValue;
         float maxZ = float.MinValue;
 
-        foreach (Renderer renderer in root.GetComponents<Renderer>())
-        {
-            Bounds bounds = renderer.bounds;
-            minX = Mathf.Min(bounds.min.x, minX);
-            minY = Mathf.Min(bounds.min.y, minY);
-            minZ = Mathf.Min(bounds.min.z, minZ);
+        Renderer renderer = root.GetComponent<Renderer>();
 
-            maxX = Mathf.Max(bounds.max.x, maxX);
-            maxY = Mathf.Max(bounds.max.y, maxY);
-            maxZ = Mathf.Max(bounds.max.z, maxZ);
-        }
+        Bounds bounds = renderer.bounds;
+        minX = Mathf.Min(bounds.min.x, minX);
+        minY = Mathf.Min(bounds.min.y, minY);
+        minZ = Mathf.Min(bounds.min.z, minZ);
 
-        foreach (Renderer renderer in root.GetComponentsInChildren<Renderer>())
-        {
-            Bounds bounds = renderer.bounds;
-            minX = Mathf.Min(bounds.min.x, minX);
-            minY = Mathf.Min(bounds.min.y, minY);
-            minZ = Mathf.Min(bounds.min.z, minZ);
-
-            maxX = Mathf.Max(bounds.max.x, maxX);
-            maxY = Mathf.Max(bounds.max.y, maxY);
-            maxZ = Mathf.Max(bounds.max.z, maxZ);
-        }
+        maxX = Mathf.Max(bounds.max.x, maxX);
+        maxY = Mathf.Max(bounds.max.y, maxY);
+        maxZ = Mathf.Max(bounds.max.z, maxZ);
 
         root.rotation = currentRotation;
 

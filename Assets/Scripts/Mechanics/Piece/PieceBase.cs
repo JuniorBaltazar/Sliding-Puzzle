@@ -12,6 +12,10 @@ public class PieceBase : MonoBehaviour
 
     protected Dictionary<int, int> _dictRowCollum = new Dictionary<int, int>();
 
+    public int Row => _row;
+    public int Collumn => _collumn;
+    public Dictionary<int, int> DictRowCollum => _dictRowCollum;
+
     public virtual int Index
     {
         get => _index;
@@ -20,10 +24,6 @@ public class PieceBase : MonoBehaviour
             _index = value;
         }
     }
-
-    public int Row => _row;
-    public int Collumn => _collumn;
-    public Dictionary<int, int> DictRowCollum => _dictRowCollum;
 
     public void SetRowCollumn(int row, int collumn)
     {
