@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+*.csharp linguist-detectable=true
+*.shader linguist-detectable=false
+*.cginc linguist-detectable=false
