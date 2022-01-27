@@ -1,7 +1,10 @@
 using UnityEngine;
 
-public class EmptyPiece
+namespace SlidingPuzzle.GameCore
 {
-    public PieceBase piece = new PieceBase();
-    public Vector3 position = new Vector3();
+    public class EmptyPiece
+    {
+        public PieceBase piece = new PieceBase();
+        public Vector3 position = new Vector3();
+    }
 }

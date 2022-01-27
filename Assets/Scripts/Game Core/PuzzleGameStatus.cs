@@ -1,10 +1,13 @@
 using System;
 using System.Collections.Generic;
 
-[Serializable]
-public class PuzzleGameStatus
+namespace SlidingPuzzle.SaveGame
 {
-    public bool initialLoadGame = false;
-    public int puzzleSize = 0;
-    public List<int> indices;
+    [Serializable]
+    public class PuzzleGameStatus
+    {
+        public bool initialLoadGame = false;
+        public int puzzleSize = 0;
+        public List<int> indices;
+    }
 }

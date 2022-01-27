@@ -1,93 +1,97 @@
 using UnityEngine;
+using ExtensionMethods;
 
-public sealed partial class PuzzleSystem
+namespace SlidingPuzzle.GameCore
 {
-    private void SetStatusGame()
+    public sealed partial class PuzzleSystem
     {
-        _puzzleStatusData.LoadGame(out _puzzleStatus);
+        private void SetStatusGame()
+        {
+            _puzzleStatusData.LoadGame(out _puzzleStatus);
 
-        if (_puzzleStatus.initialLoadGame == false)
-        {
-            NewGame();
-        }
-        else
-        {
-            LoadGame();
-        }
-    }
-
-    private void SetGameSettings()
-    {
-        for (int row = 0; row < _puzzleData.PuzzleSize; row++)
-        {
-            for (int collumn = 0; collumn < _puzzleData.PuzzleSize; collumn++)
+            if (_puzzleStatus.initialLoadGame == false)
             {
-                int i = IndexPiecePosition(row, collumn);
+                NewGame();
+            }
+            else
+            {
+                LoadGame();
+            }
+        }
 
-                bool newGame = i < AmountOfPieces;
-                bool loadGame = _puzzleStatus.indices[i] != -1;
-
-                bool isPiece = _puzzleStatus.initialLoadGame == false ? newGame : loadGame;
-
-                if (isPiece)
+        private void SetGameSettings()
+        {
+            for (int row = 0; row < _puzzleData.PuzzleSize; row++)
+            {
+                for (int collumn = 0; collumn < _puzzleData.PuzzleSize; collumn++)
                 {
-                    GameObject pieceObj = Instantiate(_puzzleData.PiecePrefab, _puzzleTableObject.transform);
-                    Piece piece = pieceObj.GetComponent<Piece>();
-                    PieceInteraction pieceInteraction = piece.PieceInteraction;
+                    int i = IndexPiecePosition(row, collumn);
 
-                    pieceInteraction.BoxCollider.enabled = false;
+                    bool newGame = i < AmountOfPieces;
+                    bool loadGame = _puzzleStatus.indices[i] != -1;
 
-                    piece.Index = pieceValues[i];
-                    piece.SetRowCollumn(row, collumn);
+                    bool isPiece = _puzzleStatus.initialLoadGame == false ? newGame : loadGame;
 
-                    _rowsCollumns[row, collumn] = piece;
+                    if (isPiece)
+                    {
+                        GameObject pieceObj = Instantiate(_puzzleData.PiecePrefab, _puzzleTableObject.transform);
+                        Piece piece = pieceObj.GetComponent<Piece>();
+                        PieceInteraction pieceInteraction = piece.PieceInteraction;
 
-                    _pieces.Add(piece);
-                    _dictPieceInteractions.Add(pieceInteraction, piece);
+                        pieceInteraction.BoxCollider.enabled = false;
 
-                    CreatePiece(piece);
-                    SetCorrectPosition(piece);
+                        piece.Index = pieceValues[i];
+                        piece.SetRowCollumn(row, collumn);
 
-                    continue;
+                        _rowsCollumns[row, collumn] = piece;
+
+                        _pieces.Add(piece);
+                        _dictPieceInteractions.Add(pieceInteraction, piece);
+
+                        CreatePiece(piece);
+                        SetCorrectPosition(piece);
+
+                        continue;
+                    }
+
+                    CreateEmptyPiece(i, row, collumn);
                 }
-
-                CreateEmptyPiece(i, row, collumn);
             }
         }
-    }
 
-    private void LoadGame()
-    {
-        _rowsCollumns = new Piece[_puzzleStatus.puzzleSize, _puzzleStatus.puzzleSize];
-        pieceValues = _puzzleStatus.indices;
-
-        for (int i = 0; i < pieceValues.Count - 1; i++)
+        private void LoadGame()
         {
-            _piecesCorrectPosition.Add(false);
-        }
-    }
+            _rowsCollumns = new Piece[_puzzleStatus.puzzleSize, _puzzleStatus.puzzleSize];
+            pieceValues = _puzzleStatus.indices;
 
-    private void NewGame()
-    {
-        _rowsCollumns = new Piece[_puzzleData.PuzzleSize, _puzzleData.PuzzleSize];
-        _puzzleStatus.puzzleSize = _puzzleData.PuzzleSize;
-
-        for (int i = 0; i < AmountOfPieces; i++)
-        {
-            _piecesCorrectPosition.Add(false);
-
-            if (_randomize == false)
+            for (int i = 0; i < pieceValues.Count - 1; i++)
             {
-                pieceValues.Add(i);
+                _piecesCorrectPosition.Add(false);
             }
         }
 
-        if (_randomize == true)
+        private void NewGame()
         {
-            pieceValues = RandomExtension.GenerateRandomNumbers(AmountOfPieces, 0, AmountOfPieces);
-        }
+            _rowsCollumns = new Piece[_puzzleData.PuzzleSize, _puzzleData.PuzzleSize];
+            _puzzleStatus.puzzleSize = _puzzleData.PuzzleSize;
 
-        pieceValues.Add(-1);
-        _puzzleStatus.indices = pieceValues;
+            for (int i = 0; i < AmountOfPieces; i++)
+            {
+                _piecesCorrectPosition.Add(false);
+
+                if (_randomize == false)
+                {
+                    pieceValues.Add(i);
+                }
+            }
+
+            if (_randomize == true)
+            {
+                pieceValues = RandomExtension.GenerateRandomNumbers(AmountOfPieces, 0, AmountOfPieces);
+            }
+
+            pieceValues.Add(-1);
+            _puzzleStatus.indices = pieceValues;
+        }
     }
 }

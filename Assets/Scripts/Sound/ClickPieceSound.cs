@@ -1,23 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using SlidingPuzzle.GameCore;
 
-public class ClickPieceSound : MonoBehaviour
+namespace SlidingPuzzle.Sounds
 {
-    [SerializeField] private AudioSource _clickPieceSfx = null;
-
-    private void OnEnable()
+    public class ClickPieceSound : MonoBehaviour
     {
-        PuzzleData.OnPieceClicked += HandlerClickPiece;
-    }
+        [SerializeField] private AudioSource _clickPieceSfx = null;
 
-    private void OnDisable()
-    {
-        PuzzleData.OnPieceClicked -= HandlerClickPiece;
-    }
+        private void OnEnable()
+        {
+            PuzzleData.OnPieceClicked += HandlerClickPiece;
+        }
 
-    public void HandlerClickPiece()
-    {
-        _clickPieceSfx.Play();
+        private void OnDisable()
+        {
+            PuzzleData.OnPieceClicked -= HandlerClickPiece;
+        }
+
+        public void HandlerClickPiece()
+        {
+            _clickPieceSfx.Play();
+        }
     }
 }

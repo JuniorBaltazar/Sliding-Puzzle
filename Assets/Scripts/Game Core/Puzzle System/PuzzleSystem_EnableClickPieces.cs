@@ -1,94 +1,97 @@
 using UnityEngine;
 
-public sealed partial class PuzzleSystem
+namespace SlidingPuzzle.GameCore
 {
-    private void HandlerSetPiecePosition(PieceInteraction pieceInteraction)
+    public sealed partial class PuzzleSystem
     {
-        _puzzleData.HandlerPieceClicked();
-
-        Piece piece = _dictPieceInteractions[pieceInteraction];
-
-        SwapPositions(piece);
-        SwapRowCollumn(piece);
-        SetCorrectPosition(piece);
-
-        _puzzleStatusData.SaveGame(_puzzleStatus);
-
-        if (_isFInishGame == true)
+        private void HandlerSetPiecePosition(PieceInteraction pieceInteraction)
         {
-            return;
+            _puzzleData.HandlerPieceClicked();
+
+            Piece piece = _dictPieceInteractions[pieceInteraction];
+
+            SwapPositions(piece);
+            SwapRowCollumn(piece);
+            SetCorrectPosition(piece);
+
+            _puzzleStatusData.SaveGame(_puzzleStatus);
+
+            if (_isFInishGame == true)
+            {
+                return;
+            }
+
+            EnablePieces();
         }
 
-        EnablePieces();
-    }
-
-    private void SetCorrectPosition(Piece piece)
-    {
-        if (PieceIsInCorrectPosition(piece))
+        private void SetCorrectPosition(Piece piece)
         {
-            _piecesCorrectPosition[piece.Index] = true;
-
-            if (!_piecesCorrectPosition.Contains(false))
+            if (PieceIsInCorrectPosition(piece))
             {
-                _isFInishGame = true;
-                _puzzleStatus.initialLoadGame = false;
-                _puzzleData.HandlerAllPiecesInCorrectPosition();
+                _piecesCorrectPosition[piece.Index] = true;
+
+                if (!_piecesCorrectPosition.Contains(false))
+                {
+                    _isFInishGame = true;
+                    _puzzleStatus.initialLoadGame = false;
+                    _puzzleData.HandlerAllPiecesInCorrectPosition();
+                }
+            }
+            else
+            {
+                _piecesCorrectPosition[piece.Index] = false;
             }
         }
-        else
+
+        private void EnablePieces()
         {
-            _piecesCorrectPosition[piece.Index] = false;
-        }
-    }
+            PieceBase piece = _emptyPiece.piece;
 
-    private void EnablePieces()
-    {
-        PieceBase piece = _emptyPiece.piece;
+            DesactivePieces();
 
-        DesactivePieces();
+            EnablePieceInteraction(piece.Row - 1, piece.Collumn);
+            EnablePieceInteraction(piece.Row + 1, piece.Collumn);
 
-        EnablePieceInteraction(piece.Row - 1, piece.Collumn);
-        EnablePieceInteraction(piece.Row + 1, piece.Collumn);
-
-        EnablePieceInteraction(piece.Row, piece.Collumn - 1);
-        EnablePieceInteraction(piece.Row, piece.Collumn + 1);
-    }
-
-    private void EnablePieceInteraction(int row, int collum)
-    {
-        if (row > _puzzleData.PuzzleSize - 1 || row < 0 || collum > _puzzleData.PuzzleSize - 1 || collum < 0)
-        {
-            return;
+            EnablePieceInteraction(piece.Row, piece.Collumn - 1);
+            EnablePieceInteraction(piece.Row, piece.Collumn + 1);
         }
 
-        Piece piece = (Piece)_rowsCollumns[row, collum];
-        BoxCollider boxCollider = piece.PieceInteraction.BoxCollider;
-
-        boxCollider.enabled = true;
-
-        _activePieces.Add(boxCollider);
-    }
-
-    private void DesactivePieces()
-    {
-        if (_activePieces.Count == 0 || _activePieces == null)
+        private void EnablePieceInteraction(int row, int collum)
         {
-            return;
+            if (row > _puzzleData.PuzzleSize - 1 || row < 0 || collum > _puzzleData.PuzzleSize - 1 || collum < 0)
+            {
+                return;
+            }
+
+            Piece piece = (Piece)_rowsCollumns[row, collum];
+            BoxCollider boxCollider = piece.PieceInteraction.BoxCollider;
+
+            boxCollider.enabled = true;
+
+            _activePieces.Add(boxCollider);
         }
 
-        for (int i = 0; i < _activePieces.Count; i++)
+        private void DesactivePieces()
         {
-            BoxCollider boxCollider = _activePieces[i];
-            boxCollider.enabled = false;
+            if (_activePieces.Count == 0 || _activePieces == null)
+            {
+                return;
+            }
+
+            for (int i = 0; i < _activePieces.Count; i++)
+            {
+                BoxCollider boxCollider = _activePieces[i];
+                boxCollider.enabled = false;
+            }
+
+            _activePieces.Clear();
         }
 
-        _activePieces.Clear();
-    }
+        private bool PieceIsInCorrectPosition(Piece piece)
+        {
+            int indexPiecePosition = IndexPiecePosition(piece.Row, piece.Collumn);
 
-    private bool PieceIsInCorrectPosition(Piece piece)
-    {
-        int indexPiecePosition = IndexPiecePosition(piece.Row, piece.Collumn);
-
-        return indexPiecePosition == piece.Index;
+            return indexPiecePosition == piece.Index;
+        }
     }
 }

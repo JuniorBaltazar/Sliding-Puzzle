@@ -2,41 +2,44 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(BoxCollider))]
-[RequireComponent(typeof(MeshRenderer))]
-public sealed class PieceInteraction : MonoBehaviour
+namespace SlidingPuzzle.GameCore
 {
-    [SerializeField] private PieceInteractionData _pieceInteractionData;
-
-    private BoxCollider _boxCollider;
-    private MeshRenderer _renderer;
-
-    public BoxCollider BoxCollider => _boxCollider;
-    public MeshRenderer Renderer => _renderer;
-
-    private void Awake()
+    [RequireComponent(typeof(BoxCollider))]
+    [RequireComponent(typeof(MeshRenderer))]
+    public sealed class PieceInteraction : MonoBehaviour
     {
-        _boxCollider = GetComponent<BoxCollider>();
-        _renderer = GetComponent<MeshRenderer>();
-    }
+        [SerializeField] private PieceInteractionData _pieceInteractionData;
 
-    private void OnEnable()
-    {
-        PuzzleData.OnAllPiecesInCorrectPosition += DesactiveInteraction;
-    }
+        private BoxCollider _boxCollider;
+        private MeshRenderer _renderer;
 
-    private void OnDisable()
-    {
-        PuzzleData.OnAllPiecesInCorrectPosition -= DesactiveInteraction;
-    }
+        public BoxCollider BoxCollider => _boxCollider;
+        public MeshRenderer Renderer => _renderer;
 
-    private void OnMouseDown()
-    {
-        _pieceInteractionData.HandlerPieceClicked(this);
-    }
+        private void Awake()
+        {
+            _boxCollider = GetComponent<BoxCollider>();
+            _renderer = GetComponent<MeshRenderer>();
+        }
 
-    public void DesactiveInteraction()
-    {
-        _boxCollider.enabled = false;
+        private void OnEnable()
+        {
+            PuzzleData.OnAllPiecesInCorrectPosition += DesactiveInteraction;
+        }
+
+        private void OnDisable()
+        {
+            PuzzleData.OnAllPiecesInCorrectPosition -= DesactiveInteraction;
+        }
+
+        private void OnMouseDown()
+        {
+            _pieceInteractionData.HandlerPieceClicked(this);
+        }
+
+        public void DesactiveInteraction()
+        {
+            _boxCollider.enabled = false;
+        }
     }
 }

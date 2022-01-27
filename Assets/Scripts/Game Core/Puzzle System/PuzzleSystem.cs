@@ -1,63 +1,67 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-using ExtensionMethods;
+using SlidingPuzzle.SaveGame;
+using SlidingPuzzle.Customization;
 
-public sealed partial class PuzzleSystem : MonoBehaviour
+namespace SlidingPuzzle.GameCore
 {
-    [SerializeField] private PuzzleData _puzzleData = null;
-    [SerializeField] private PuzzleGameStatusData _puzzleStatusData;
-    [SerializeField] private PieceCustomizationData _pieceCustomizationData = null;
-    [SerializeField] private GameObject _puzzleTableObject = null;
-    [SerializeField] private bool _randomize = true;
-
-    private bool _isFInishGame = false;
-    private PuzzleGameStatus _puzzleStatus;
-    private EmptyPiece _emptyPiece;
-
-    private List<int> pieceValues = new List<int>();
-    private List<bool> _piecesCorrectPosition = new List<bool>();
-    private List<BoxCollider> _activePieces = new List<BoxCollider>();
-    private List<Piece> _pieces = new List<Piece>();
-
-    private PieceBase[,] _rowsCollumns;
-
-    private Dictionary<PieceInteraction, Piece> _dictPieceInteractions = new Dictionary<PieceInteraction, Piece>();
-
-    private int AmountOfPieces => (int)Mathf.Pow(_puzzleData.PuzzleSize, 2) - 1;
-
-    private void OnEnable()
+    public sealed partial class PuzzleSystem : MonoBehaviour
     {
-        PieceInteractionData.OnPieceClicked += HandlerSetPiecePosition;
-    }
+        [SerializeField] private PuzzleData _puzzleData = null;
+        [SerializeField] private PuzzleGameStatusData _puzzleStatusData;
+        [SerializeField] private PieceCustomizationData _pieceCustomizationData = null;
+        [SerializeField] private GameObject _puzzleTableObject = null;
+        [SerializeField] private bool _randomize = true;
 
-    private void OnDisable()
-    {
-        PieceInteractionData.OnPieceClicked -= HandlerSetPiecePosition;
-    }
+        private bool _isFInishGame = false;
+        private PuzzleGameStatus _puzzleStatus;
+        private EmptyPiece _emptyPiece;
 
-    private void Start()
-    {
-        _emptyPiece = new EmptyPiece();
-        pieceValues = new List<int>(AmountOfPieces);
+        private List<int> pieceValues = new List<int>();
+        private List<bool> _piecesCorrectPosition = new List<bool>();
+        private List<BoxCollider> _activePieces = new List<BoxCollider>();
+        private List<Piece> _pieces = new List<Piece>();
 
-        SetStatusGame();
+        private PieceBase[,] _rowsCollumns;
 
-        SetGameSettings();
+        private Dictionary<PieceInteraction, Piece> _dictPieceInteractions = new Dictionary<PieceInteraction, Piece>();
 
-        CustomizeAllPieces();
+        private int AmountOfPieces => (int)Mathf.Pow(_puzzleData.PuzzleSize, 2) - 1;
 
-        if (_isFInishGame == true)
+        private void OnEnable()
         {
-            _puzzleStatus.initialLoadGame = false;
-            _puzzleStatusData.SaveGame(_puzzleStatus);
-            return;
-        }
-        else
-        {
-            _puzzleStatus.initialLoadGame = true;
-            _puzzleStatusData.SaveGame(_puzzleStatus);
+            PieceInteractionData.OnPieceClicked += HandlerSetPiecePosition;
         }
 
-        EnablePieces();
+        private void OnDisable()
+        {
+            PieceInteractionData.OnPieceClicked -= HandlerSetPiecePosition;
+        }
+
+        private void Start()
+        {
+            _emptyPiece = new EmptyPiece();
+            pieceValues = new List<int>(AmountOfPieces);
+
+            SetStatusGame();
+
+            SetGameSettings();
+
+            CustomizeAllPieces();
+
+            if (_isFInishGame == true)
+            {
+                _puzzleStatus.initialLoadGame = false;
+                _puzzleStatusData.SaveGame(_puzzleStatus);
+                return;
+            }
+            else
+            {
+                _puzzleStatus.initialLoadGame = true;
+                _puzzleStatusData.SaveGame(_puzzleStatus);
+            }
+
+            EnablePieces();
+        }
     }
 }

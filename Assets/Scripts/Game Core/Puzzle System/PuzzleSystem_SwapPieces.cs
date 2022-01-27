@@ -1,41 +1,44 @@
 using UnityEngine;
 
-public sealed partial class PuzzleSystem
+namespace SlidingPuzzle.GameCore
 {
-
-    private void SwapPositions(Piece piece)
+    public sealed partial class PuzzleSystem
     {
-        Vector3 piecePosition = piece.transform.position;
 
-        piece.transform.position = _emptyPiece.position;
-        _emptyPiece.position = piecePosition;
-    }
+        private void SwapPositions(Piece piece)
+        {
+            Vector3 piecePosition = piece.transform.position;
 
-    private void SwapRowCollumn(Piece piece)
-    {
-        int pieceRow = piece.Row;
-        int pieceCollumn = piece.Collumn;
+            piece.transform.position = _emptyPiece.position;
+            _emptyPiece.position = piecePosition;
+        }
 
-        int emptyRow = _emptyPiece.piece.Row;
-        int emptyCollumn = _emptyPiece.piece.Collumn;
+        private void SwapRowCollumn(Piece piece)
+        {
+            int pieceRow = piece.Row;
+            int pieceCollumn = piece.Collumn;
 
-        //Switch value between Piece and Empty Piece
-        piece.SetRowCollumn(emptyRow, emptyCollumn);
-        _rowsCollumns[emptyRow, emptyCollumn] = piece;
+            int emptyRow = _emptyPiece.piece.Row;
+            int emptyCollumn = _emptyPiece.piece.Collumn;
 
-        _emptyPiece.piece.SetRowCollumn(pieceRow, pieceCollumn);
-        _rowsCollumns[pieceRow, pieceCollumn] = null;
+            //Switch value between Piece and Empty Piece
+            piece.SetRowCollumn(emptyRow, emptyCollumn);
+            _rowsCollumns[emptyRow, emptyCollumn] = piece;
 
-        //Save piece positions
-        int pieceIndexPosition = IndexPiecePosition(emptyRow, emptyCollumn);
-        _puzzleStatus.indices[pieceIndexPosition] = piece.Index;
+            _emptyPiece.piece.SetRowCollumn(pieceRow, pieceCollumn);
+            _rowsCollumns[pieceRow, pieceCollumn] = null;
 
-        int emptyPieceIndexPosition = IndexPiecePosition(pieceRow, pieceCollumn);
-        _puzzleStatus.indices[emptyPieceIndexPosition] = -1;
-    }
+            //Save piece positions
+            int pieceIndexPosition = IndexPiecePosition(emptyRow, emptyCollumn);
+            _puzzleStatus.indices[pieceIndexPosition] = piece.Index;
 
-    private int IndexPiecePosition(int row, int collumn)
-    {
-        return row * _puzzleData.PuzzleSize + collumn;
+            int emptyPieceIndexPosition = IndexPiecePosition(pieceRow, pieceCollumn);
+            _puzzleStatus.indices[emptyPieceIndexPosition] = -1;
+        }
+
+        private int IndexPiecePosition(int row, int collumn)
+        {
+            return row * _puzzleData.PuzzleSize + collumn;
+        }
     }
 }

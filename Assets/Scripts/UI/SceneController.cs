@@ -4,25 +4,28 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-[RequireComponent(typeof(Button))]
-public sealed class SceneController : MonoBehaviour
+namespace SlidingPuzzle.UI
 {
-    [SerializeField] private int _sceneIndex = 0;
-    
-    private Button _button = null;
-
-    private void Awake()
+    [RequireComponent(typeof(Button))]
+    public sealed class SceneController : MonoBehaviour
     {
-        _button = GetComponent<Button>();
-    }
+        [SerializeField] private int _sceneIndex = 0;
 
-    private void Start()
-    {
-        _button.onClick.AddListener(() => { SetScene(); });
-    }
+        private Button _button = null;
 
-    private void SetScene()
-    {
-        SceneManager.LoadScene(_sceneIndex);
+        private void Awake()
+        {
+            _button = GetComponent<Button>();
+        }
+
+        private void Start()
+        {
+            _button.onClick.AddListener(() => { SetScene(); });
+        }
+
+        private void SetScene()
+        {
+            SceneManager.LoadScene(_sceneIndex);
+        }
     }
 }

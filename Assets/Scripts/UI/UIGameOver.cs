@@ -1,23 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using SlidingPuzzle.GameCore;
 
-public class UIGameOver : MonoBehaviour
+namespace SlidingPuzzle.UI
 {
-    [SerializeField] private GameObject _gameOverPanel;
-
-    private void OnEnable()
+    public class UIGameOver : MonoBehaviour
     {
-        PuzzleData.OnAllPiecesInCorrectPosition += ActiveGameOverPanel;
-    }
+        [SerializeField] private GameObject _gameOverPanel;
 
-    private void OnDisable()
-    {
-        PuzzleData.OnAllPiecesInCorrectPosition -= ActiveGameOverPanel;
-    }
+        private void OnEnable()
+        {
+            PuzzleData.OnAllPiecesInCorrectPosition += ActiveGameOverPanel;
+        }
 
-    public void ActiveGameOverPanel()
-    {
-        _gameOverPanel.SetActive(true);
+        private void OnDisable()
+        {
+            PuzzleData.OnAllPiecesInCorrectPosition -= ActiveGameOverPanel;
+        }
+
+        public void ActiveGameOverPanel()
+        {
+            _gameOverPanel.SetActive(true);
+        }
     }
 }
