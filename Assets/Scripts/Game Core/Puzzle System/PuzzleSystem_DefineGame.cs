@@ -40,7 +40,7 @@ namespace SlidingPuzzle.GameCore
 
                         pieceInteraction.BoxCollider.enabled = false;
 
-                        piece.Index = pieceValues[i];
+                        piece.Index = _pieceValues[i];
                         piece.SetRowCollumn(row, collumn);
 
                         _rowsCollumns[row, collumn] = piece;
@@ -62,9 +62,9 @@ namespace SlidingPuzzle.GameCore
         private void LoadGame()
         {
             _rowsCollumns = new Piece[_puzzleStatus.puzzleSize, _puzzleStatus.puzzleSize];
-            pieceValues = _puzzleStatus.indices;
+            _pieceValues = _puzzleStatus.indices;
 
-            for (int i = 0; i < pieceValues.Count - 1; i++)
+            for (int i = 0; i < _pieceValues.Count - 1; i++)
             {
                 _piecesCorrectPosition.Add(false);
             }
@@ -81,17 +81,17 @@ namespace SlidingPuzzle.GameCore
 
                 if (_randomize == false)
                 {
-                    pieceValues.Add(i);
+                    _pieceValues.Add(i);
                 }
             }
 
             if (_randomize == true)
             {
-                pieceValues = RandomExtension.GenerateRandomNumbers(AmountOfPieces, 0, AmountOfPieces);
+                _pieceValues = RandomExtension.GenerateRandomNumbers(AmountOfPieces, 0, AmountOfPieces);
             }
 
-            pieceValues.Add(-1);
-            _puzzleStatus.indices = pieceValues;
+            _pieceValues.Add(-1);
+            _puzzleStatus.indices = _pieceValues;
         }
     }
 }

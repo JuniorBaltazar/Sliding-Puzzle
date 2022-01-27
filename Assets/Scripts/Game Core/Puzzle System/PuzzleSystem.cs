@@ -17,7 +17,7 @@ namespace SlidingPuzzle.GameCore
         private PuzzleGameStatus _puzzleStatus;
         private EmptyPiece _emptyPiece;
 
-        private List<int> pieceValues = new List<int>();
+        private List<int> _pieceValues = new List<int>();
         private List<bool> _piecesCorrectPosition = new List<bool>();
         private List<BoxCollider> _activePieces = new List<BoxCollider>();
         private List<Piece> _pieces = new List<Piece>();
@@ -41,7 +41,7 @@ namespace SlidingPuzzle.GameCore
         private void Start()
         {
             _emptyPiece = new EmptyPiece();
-            pieceValues = new List<int>(AmountOfPieces);
+            _pieceValues = new List<int>(AmountOfPieces);
 
             SetStatusGame();
 
