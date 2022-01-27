@@ -7,17 +7,14 @@ public class PuzzleGameStatusData : ScriptableObject
     [SerializeField] private string _folder = "Assets/Saved Game";
     [SerializeField] private string _fileName = "Puzzle Status Game";
 
-    private PuzzleGameStatus puzzleStatus;
-
-    public PuzzleGameStatus PuzzleStatus => puzzleStatus;
-
-    public void SaveGame()
+    public void SaveGame(PuzzleGameStatus puzzleStatus)
     {
         puzzleStatus.JsonSerialize(_folder, _fileName);
     }
 
-    public void LoadGame()
+    public void LoadGame(out PuzzleGameStatus puzzleStatus)
     {
+        puzzleStatus = new PuzzleGameStatus();
         puzzleStatus.JsonDeserialize(out puzzleStatus, _folder, _fileName);
     }
 }

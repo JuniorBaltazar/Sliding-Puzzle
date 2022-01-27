@@ -1053,6 +1053,11 @@ MonoBehaviour:
   _pieceCustomizationData: {fileID: 11400000, guid: 135db4a2877713349810b3b1fff25a49, type: 2}
   _puzzleTableObject: {fileID: 424736987}
   _randomize: 1
+  pieceValues: 
+  _puzzleStatus:
+    initialLoadGame: 0
+    puzzleSize: 0
+    indices: 
 --- !u!1 &945332780
 GameObject:
   m_ObjectHideFlags: 0

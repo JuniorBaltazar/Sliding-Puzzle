@@ -1,22 +1,22 @@
-using System;
+using System.Collections.Generic;
+using UnityEngine;
 
 public static class RandomExtension
 {
-    /// <summary>
-    /// Shuffle values in the Array
-    /// </summary>
-    /// <typeparam name="T"></typeparam>
-    /// <param name="rng"></param>
-    /// <param name="array"></param>
-    public static void Shuffle<T>(this Random rng, T[] array)
+    public static List<int> GenerateRandomNumbers(int count, int minValue, int maxValue)
     {
-        int n = array.Length;
-        while (n > 1) 
+        List<int> possibleNumbers = new List<int>();
+        List<int> chosenNumbers = new List<int>();
+
+        for (int index = minValue; index < maxValue; index++)
+            possibleNumbers.Add(index);
+
+        while (chosenNumbers.Count < count)
         {
-            int k = rng.Next(n--);
-            T temp = array[n];
-            array[n] = array[k];
-            array[k] = temp;
+            int position = Random.Range(0, possibleNumbers.Count);
+            chosenNumbers.Add(possibleNumbers[position]);
+            possibleNumbers.RemoveAt(position);
         }
+        return chosenNumbers;
     }
 }
