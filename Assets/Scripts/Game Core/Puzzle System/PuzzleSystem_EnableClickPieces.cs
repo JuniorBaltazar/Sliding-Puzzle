@@ -7,12 +7,7 @@ namespace SlidingPuzzle.GameCore
         private void HandlerSetPiecePosition(PieceInteraction pieceInteraction)
         {
             _puzzleData.HandlerPieceClicked();
-
-            Piece piece = _dictPieceInteractions[pieceInteraction];
-
-            SwapPositions(piece);
-            SwapRowCollumn(piece);
-            SetCorrectPosition(piece);
+            MovePiece(pieceInteraction);
 
             _puzzleStatusData.SaveGame(_puzzleStatus);
 
@@ -22,6 +17,17 @@ namespace SlidingPuzzle.GameCore
             }
 
             EnablePieces();
+
+            // Local Methods
+
+            void MovePiece(PieceInteraction pieceInteraction)
+            {
+                Piece piece = _dictPieceInteractions[pieceInteraction];
+
+                SwapPositions(piece);
+                SwapRowCollumn(piece);
+                SetCorrectPosition(piece);
+            }
         }
 
         private void SetCorrectPosition(Piece piece)

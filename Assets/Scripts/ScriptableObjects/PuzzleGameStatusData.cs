@@ -4,7 +4,7 @@ using ExtensionMethods;
 namespace SlidingPuzzle.SaveGame
 {
     [CreateAssetMenu(fileName = "Game Status Data", menuName = "Sliding Puzzle/Core/Create Puzzle Game Status")]
-    public class PuzzleGameStatusData : ScriptableObject
+    public sealed class PuzzleGameStatusData : ScriptableObject
     {
         [SerializeField] private string _folder = "Assets/Saved Game";
         [SerializeField] private string _fileName = "Puzzle Status Game";

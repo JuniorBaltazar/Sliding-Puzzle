@@ -9,7 +9,9 @@ namespace SlidingPuzzle.GameCore
         {
             _puzzleStatusData.LoadGame(out _puzzleStatus);
 
-            if (_puzzleStatus.initialLoadGame == false)
+            bool isNewGame = _puzzleStatus.initialLoadGame == false || _puzzleData.PuzzleSize != _puzzleStatus.puzzleSize;
+
+            if (isNewGame)
             {
                 NewGame();
             }
@@ -34,28 +36,53 @@ namespace SlidingPuzzle.GameCore
 
                     if (isPiece)
                     {
-                        GameObject pieceObj = Instantiate(_puzzleData.PiecePrefab, _puzzleTableObject.transform);
-                        Piece piece = pieceObj.GetComponent<Piece>();
-                        PieceInteraction pieceInteraction = piece.PieceInteraction;
-
-                        pieceInteraction.BoxCollider.enabled = false;
-
-                        piece.Index = _pieceValues[i];
-                        piece.SetRowCollumn(row, collumn);
-
-                        _rowsCollumns[row, collumn] = piece;
-
-                        _pieces.Add(piece);
-                        _dictPieceInteractions.Add(pieceInteraction, piece);
-
-                        CreatePiece(piece);
-                        SetCorrectPosition(piece);
+                        CreatePiece(row, collumn, i);
 
                         continue;
                     }
 
                     CreateEmptyPiece(i, row, collumn);
                 }
+            }
+
+            //Local Methods
+
+            void CreatePiece(int row, int collumn, int i)
+            {
+                GameObject pieceObj = Instantiate(_puzzleData.PiecePrefab, _puzzleTableObject.transform);
+                Piece piece = pieceObj.GetComponent<Piece>();
+                PieceInteraction pieceInteraction = piece.PieceInteraction;
+
+                pieceInteraction.BoxCollider.enabled = false;
+
+                piece.Index = _pieceValues[i];
+                piece.SetRowCollumn(row, collumn);
+
+                _rowsCollumns[row, collumn] = piece;
+
+                _pieces.Add(piece);
+                _dictPieceInteractions.Add(pieceInteraction, piece);
+
+                SetPieceSize(piece);
+                SetCorrectPosition(piece);
+            }
+
+            void CreateEmptyPiece(int emptyIndex, int row, int collumn)
+            {
+                Bounds bnds = _puzzleTableObject.transform.CalculateBounds();
+
+                float rowSize = bnds.center.x - bnds.extents.x;
+                float collumnSize = bnds.center.z - bnds.extents.z;
+                float surface = bnds.center.y + bnds.extents.y;
+                float size = _puzzleData.PuzzleSize;
+
+                Vector3 piecePosition = new Vector3(rowSize + (row + 0.5f) / size, surface, collumnSize + (collumn + 0.5f) / size);
+
+                _emptyPiece.piece.SetRowCollumn(row, collumn);
+                _emptyPiece.piece.Index = emptyIndex;
+                _emptyPiece.position = piecePosition;
+
+                _puzzleStatus.indices[emptyIndex] = -1;
             }
         }
 

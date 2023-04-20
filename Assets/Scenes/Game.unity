@@ -1050,14 +1050,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _puzzleData: {fileID: 11400000, guid: 6d16efc93b202db44b0065c6cd8dbc60, type: 2}
   _puzzleStatusData: {fileID: 11400000, guid: 18063f73542d19543b110a061c357915, type: 2}
-  _pieceCustomizationData: {fileID: 11400000, guid: 135db4a2877713349810b3b1fff25a49, type: 2}
+  _pieceCustomizationData: {fileID: 11400000, guid: 7e0fde76b412f37468d02743565631f4, type: 2}
   _puzzleTableObject: {fileID: 424736987}
   _randomize: 1
-  pieceValues: 
-  _puzzleStatus:
-    initialLoadGame: 0
-    puzzleSize: 0
-    indices: 
 --- !u!1 &945332780
 GameObject:
   m_ObjectHideFlags: 0

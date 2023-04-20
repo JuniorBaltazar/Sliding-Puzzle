@@ -4,7 +4,6 @@ namespace SlidingPuzzle.GameCore
 {
     public sealed partial class PuzzleSystem
     {
-
         private void SwapPositions(Piece piece)
         {
             Vector3 piecePosition = piece.transform.position;

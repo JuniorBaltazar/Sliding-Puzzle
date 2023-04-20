@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _piecePrefab: {fileID: 3507315949112423663, guid: bdf6cdc01a710934ab80a0799c16d87e, type: 3}
   _pieceSeparation: 0.03
-  _puzzleSize: 3
+  _puzzleSize: 5

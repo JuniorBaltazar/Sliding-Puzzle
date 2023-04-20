@@ -13,14 +13,14 @@ namespace SlidingPuzzle.GameCore
         [SerializeField] private GameObject _puzzleTableObject = null;
         [SerializeField] private bool _randomize = true;
 
-        private bool _isFInishGame = false;
-        private PuzzleGameStatus _puzzleStatus;
         private EmptyPiece _emptyPiece;
+        private PuzzleGameStatus _puzzleStatus;
+        private bool _isFInishGame = false;
 
+        private List<Piece> _pieces = new List<Piece>();
         private List<int> _pieceValues = new List<int>();
         private List<bool> _piecesCorrectPosition = new List<bool>();
         private List<BoxCollider> _activePieces = new List<BoxCollider>();
-        private List<Piece> _pieces = new List<Piece>();
 
         private PieceBase[,] _rowsCollumns;
 
@@ -44,24 +44,27 @@ namespace SlidingPuzzle.GameCore
             _pieceValues = new List<int>(AmountOfPieces);
 
             SetStatusGame();
-
             SetGameSettings();
-
             CustomizeAllPieces();
 
             if (_isFInishGame == true)
             {
                 _puzzleStatus.initialLoadGame = false;
-                _puzzleStatusData.SaveGame(_puzzleStatus);
+                SavePuzzleStatus();
                 return;
             }
             else
             {
                 _puzzleStatus.initialLoadGame = true;
-                _puzzleStatusData.SaveGame(_puzzleStatus);
+                SavePuzzleStatus();
             }
 
             EnablePieces();
+        }
+
+        private void SavePuzzleStatus()
+        {
+            _puzzleStatusData.SaveGame(_puzzleStatus);
         }
     }
 }
