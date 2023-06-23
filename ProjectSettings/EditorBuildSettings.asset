@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
+    path: Assets/BaltaRed/Sliding Puzzle Game/Scenes/Menu.unity
     guid: 2f75d6ce1e2d85b49b2f392ee7859117
   - enabled: 1
-    path: Assets/Scenes/Game.unity
+    path: Assets/BaltaRed/Sliding Puzzle Game/Scenes/Game.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

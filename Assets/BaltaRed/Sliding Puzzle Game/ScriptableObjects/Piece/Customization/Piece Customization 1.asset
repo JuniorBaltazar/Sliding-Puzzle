@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f056948977aa7964ca216eca0592a7f5, type: 3}
+  m_Name: Piece Customization 1
+  m_EditorClassIdentifier: 
+  _fontAsset: {fileID: 11400000, guid: 9c8e5c1f70b06d8498e61c276c6d5473, type: 2}
+  _fontColor: {r: 0.96862745, g: 0.43529412, b: 0.5568628, a: 1}
+  _backgroundColor: {r: 0.5411765, g: 0.8039216, b: 0.91764706, a: 1}

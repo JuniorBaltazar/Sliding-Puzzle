@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 22621.819; Version 2009; 64bit' Language: 'pt' Physical Memory: 15720 MB
+OS: 'Windows 10 Home Single Language; OS build 22621.963; Version 2009; 64bit' Language: 'pt' Physical Memory: 15720 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/Junio/DEV/Unity/Projects/Junior Baltazar Projects/Sliding-Puzzle-Job-Te
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62428
+64442
 Successfully changed project path to: C:/Users/Junio/DEV/Unity/Projects/Junior Baltazar Projects/Sliding-Puzzle-Job-Test
 C:/Users/Junio/DEV/Unity/Projects/Junior Baltazar Projects/Sliding-Puzzle-Job-Test
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 31.32 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 73.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,80 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001217 seconds.
+Registered in 0.009704 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.84 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 101.87 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.105 seconds
+- Completed reload, in  7.084 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000831 seconds.
+Registered in 0.002075 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 53.84 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.747 seconds
+- Completed reload, in  1.346 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1840 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.8 MB.
 System memory in use after: 87.9 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2289.
-Total: 2.049800 ms (FindLiveObjects: 0.216700 ms CreateObjectMapping: 0.059700 ms MarkObjects: 1.706500 ms  DeleteObjects: 0.065500 ms)
+Total: 4.156300 ms (FindLiveObjects: 0.905900 ms CreateObjectMapping: 0.198100 ms MarkObjects: 2.937500 ms  DeleteObjects: 0.112900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/ScriptableObjects/Game Core/Puzzle Data.asset
-  artifactKey: Guid(6d16efc93b202db44b0065c6cd8dbc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/Game Core/Puzzle Data.asset using Guid(6d16efc93b202db44b0065c6cd8dbc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9770276db3f10799f906238c1699243c') in 0.076507 seconds
-  Import took 0.079517 seconds .
+  path: Assets/Scripts/Game Core/Puzzle System/PuzzleSystem.cs
+  artifactKey: Guid(2839a6f0cc5a04113b4f1677ab6ffe23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game Core/Puzzle System/PuzzleSystem.cs using Guid(2839a6f0cc5a04113b4f1677ab6ffe23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36927e47210271da62f63d675d36b9b4') in 0.075407 seconds
+  Import took 0.084767 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000913 seconds.
+Registered in 0.002217 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.752 seconds
+- Completed reload, in  1.184 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.2 MB.
-System memory in use after: 86.4 MB.
+System memory in use after: 86.3 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2294.
-Total: 2.090300 ms (FindLiveObjects: 0.189000 ms CreateObjectMapping: 0.072900 ms MarkObjects: 1.799200 ms  DeleteObjects: 0.028100 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 2.128300 ms (FindLiveObjects: 0.195800 ms CreateObjectMapping: 0.056100 ms MarkObjects: 1.858400 ms  DeleteObjects: 0.016900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.593197 seconds.
-  path: Assets/ScriptableObjects/Game Core/Game Status Data.asset
-  artifactKey: Guid(18063f73542d19543b110a061c357915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/Game Core/Game Status Data.asset using Guid(18063f73542d19543b110a061c357915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9432fcd09ea2a3b54798a6cdb2ec11') in 0.010500 seconds
-  Import took 0.013268 seconds .
+  Time since last request: 36.320597 seconds.
+  path: Assets/Scripts/Game Core/Puzzle System/PuzzleSystem.cs
+  artifactKey: Guid(2839a6f0cc5a04113b4f1677ab6ffe23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game Core/Puzzle System/PuzzleSystem.cs using Guid(2839a6f0cc5a04113b4f1677ab6ffe23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd0324efcf3114c43cbc0e8e53694fa') in 0.006413 seconds
+  Import took 0.030628 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001252 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.790 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.3 MB.
-System memory in use after: 86.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2298.
-Total: 2.392900 ms (FindLiveObjects: 0.314400 ms CreateObjectMapping: 0.099500 ms MarkObjects: 1.963300 ms  DeleteObjects: 0.014800 ms)
+Received Import Request.
+  Time since last request: 10.189424 seconds.
+  path: Assets/ScriptableObjects/Game Core/Puzzle Data.asset
+  artifactKey: Guid(6d16efc93b202db44b0065c6cd8dbc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Game Core/Puzzle Data.asset using Guid(6d16efc93b202db44b0065c6cd8dbc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd588b98a1ba8d0605aa4b661a3a8482') in 0.114293 seconds
+  Import took 0.120063 seconds .
 
 ========================================================================
 Received Prepare
@@ -128,62 +116,2006 @@ Registering precompiled user dll's ...
 Registered in 0.001196 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.777 seconds
+- Completed reload, in  1.107 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.3 MB.
+System memory in use after: 86.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2298.
+Total: 2.690400 ms (FindLiveObjects: 0.302500 ms CreateObjectMapping: 0.120400 ms MarkObjects: 2.246800 ms  DeleteObjects: 0.019400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.655061 seconds.
+  path: Assets/ScriptableObjects/Game Core/Puzzle Data.asset
+  artifactKey: Guid(6d16efc93b202db44b0065c6cd8dbc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Game Core/Puzzle Data.asset using Guid(6d16efc93b202db44b0065c6cd8dbc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56911aef0f3b7621121fec579db8d0b9') in 0.092265 seconds
+  Import took 0.097504 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001874 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.184 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.3 MB.
 System memory in use after: 86.4 MB.
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2302.
-Total: 2.265300 ms (FindLiveObjects: 0.368800 ms CreateObjectMapping: 0.090600 ms MarkObjects: 1.777900 ms  DeleteObjects: 0.027100 ms)
+Total: 2.790200 ms (FindLiveObjects: 0.316000 ms CreateObjectMapping: 0.099700 ms MarkObjects: 2.353900 ms  DeleteObjects: 0.019200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 201.067354 seconds.
-  path: Assets/Scenes/Game.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d74eb84b1975ccab542647be90b3709') in 0.012419 seconds
-  Import took 0.015130 seconds .
+  Time since last request: 16.815577 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369c3de2eee79ab67b4c733eb7aa79ca') in 0.038641 seconds
+  Import took 0.042435 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.319190 seconds.
-  path: Assets/ScriptableObjects/Game Core/Puzzle Data.asset
-  artifactKey: Guid(6d16efc93b202db44b0065c6cd8dbc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/Game Core/Puzzle Data.asset using Guid(6d16efc93b202db44b0065c6cd8dbc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56911aef0f3b7621121fec579db8d0b9') in 0.045757 seconds
-  Import took 0.048594 seconds .
+  Time since last request: 0.006442 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369c3de2eee79ab67b4c733eb7aa79ca') in 0.005662 seconds
+  Import took 0.009300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.490673 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(01717365bd7bf304bad1692c6a5db52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(01717365bd7bf304bad1692c6a5db52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb19d0f5e2a8f19010f7c0a0ea47eb9c') in 0.007134 seconds
+  Import took 0.023017 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000736 seconds.
+Registered in 0.001259 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.698 seconds
+- Completed reload, in  1.185 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.3 MB.
-System memory in use after: 86.4 MB.
+System memory in use after: 86.5 MB.
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2306.
-Total: 3.752900 ms (FindLiveObjects: 0.479400 ms CreateObjectMapping: 0.172900 ms MarkObjects: 3.067700 ms  DeleteObjects: 0.031600 ms)
+Total: 2.569400 ms (FindLiveObjects: 0.228200 ms CreateObjectMapping: 0.090100 ms MarkObjects: 2.229400 ms  DeleteObjects: 0.020500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.330951 seconds.
+  Time since last request: 13.083121 seconds.
   path: Assets/Saved Game/Puzzle Status Game.json
   artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0532ae533e8b0b7e07b8db6f1148ada') in 0.018561 seconds
-  Import took 0.021215 seconds .
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87eb7cb82d68fed3b423a2730486eca') in 0.026080 seconds
+  Import took 0.030692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.564196 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafdf55a02e18d6093f1c1111df62d83') in 0.009506 seconds
+  Import took 0.014439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.546335 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b443445c1a22c1d57d1403841f6992') in 0.008077 seconds
+  Import took 0.012110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.494193 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cda3ce407363f32437ea4fa9e279a1') in 0.008835 seconds
+  Import took 0.013507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.314036 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdcff8c777efb9610a5d3b78a9814c71') in 0.007949 seconds
+  Import took 0.012474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.264772 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac6deed5f1f3b9e025ec2c2c0f85f22') in 0.008887 seconds
+  Import took 0.013107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.287151 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c58aeca97579ef63e2613ca4aa04e2') in 0.008458 seconds
+  Import took 0.013077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.494947 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a8f36950ede0b6678de3ec11ebd6bf') in 0.009232 seconds
+  Import took 0.013901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.327860 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe86085906d640162c8619bcb6b53491') in 0.008825 seconds
+  Import took 0.013011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.348892 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39745e71231d618d3f6695a6128f3216') in 0.009219 seconds
+  Import took 0.013152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.402904 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399c9d6b0fa7d5276d3a95992246375f') in 0.008234 seconds
+  Import took 0.012273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.259936 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f4fcf263459274b128eb37b0916b55') in 0.008763 seconds
+  Import took 0.013680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.446291 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e79b9d6c178ec79e3ab5f3936ec12e9') in 0.009812 seconds
+  Import took 0.014744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.267778 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95490450f0e046eefb8c5ec1393582c') in 0.008765 seconds
+  Import took 0.013349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.333833 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02352c4279ad257d334ba185f4f02d7') in 0.008665 seconds
+  Import took 0.015685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.307925 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0a49fc5ceb71d2339faaa2d0ab782c') in 0.008174 seconds
+  Import took 0.012301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.445091 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867b7d4e56aeeadc3ff13c75e115c677') in 0.028942 seconds
+  Import took 0.033455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.247098 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4855abb767239c2af8b5a104b57c8f12') in 0.035475 seconds
+  Import took 0.041432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.373343 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91be94f5996330566b480d2cc0fb9428') in 0.022726 seconds
+  Import took 0.029253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.845757 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e8a3f74ee0438466c1d0a5d92ccaf5') in 0.008607 seconds
+  Import took 0.012954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.174950 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b7c87b43f079227091178106b13fe5') in 0.030532 seconds
+  Import took 0.035814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.255877 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7b0522154e4eb356558aee1ab6d0ce') in 0.008566 seconds
+  Import took 0.013405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.306902 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6eba65d4fb07737b0ad96c44cc56fa') in 0.008835 seconds
+  Import took 0.012864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.568179 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40b78d9d530d7e0d8c359420c1f9a5e') in 0.008148 seconds
+  Import took 0.012845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.670898 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc59eac1d29319263d7c2d2f3645947') in 0.011265 seconds
+  Import took 0.020594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.267217 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba646aaccd5282e409f7f0c4d7789f6') in 0.010185 seconds
+  Import took 0.014649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.273425 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837e256db23a4c6e1937f48268655c76') in 0.008513 seconds
+  Import took 0.012519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.148980 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1fc2e7c0875a6483f7e95cb3dc3f5e') in 0.008527 seconds
+  Import took 0.012482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.633988 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd734bd10f46315b1d583ae9cc3f8958e') in 0.008847 seconds
+  Import took 0.013452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.287293 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35d486e10376f044854e85c9902dc72') in 0.007493 seconds
+  Import took 0.012521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.363928 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2885ebd65e57e590dde8cbc25adbfcb') in 0.008768 seconds
+  Import took 0.012928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.467531 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94a171f7edda67c0178461eb7acb1ce') in 0.009379 seconds
+  Import took 0.013939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.328206 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0deecab3ea26586931d1b644c5324f60') in 0.009381 seconds
+  Import took 0.014351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.313736 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3cf0f92655ca01164fcc4ae59d79a9') in 0.008215 seconds
+  Import took 0.012484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.069049 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14d12b9a0984f8add99a92e33b16689') in 0.008588 seconds
+  Import took 0.013254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.258483 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374ec87b3e0d0c0868e2996728e5575a') in 0.008945 seconds
+  Import took 0.013024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.262965 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5505c10eeff54718e8de19fc76e8d70f') in 0.009454 seconds
+  Import took 0.013529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.511575 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30422a60a73a93e93721c61035ab74b3') in 0.028822 seconds
+  Import took 0.033094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.267445 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe45fdff0f16de95dcd98c3bd1a725d') in 0.008160 seconds
+  Import took 0.012672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.161879 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f9aaa82503e52f9f07146144f2751a') in 0.008303 seconds
+  Import took 0.012284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.395719 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b553b0cb2752c095eb3e24232a20c2c3') in 0.007899 seconds
+  Import took 0.012389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.261163 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0850644de760e6cd96dc6df58eaa341') in 0.008361 seconds
+  Import took 0.012499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.859776 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78dbd2a72c895b7afcc63c0a60ada19') in 0.009761 seconds
+  Import took 0.013917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.366336 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96e78acb7fabc4569d2748318decc4e') in 0.008240 seconds
+  Import took 0.011907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.443265 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b7607458caec455d1ecb0746f6a6bc') in 0.009489 seconds
+  Import took 0.013638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.470772 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5160d420c3d0f42323a6e1a7b870f46') in 0.010019 seconds
+  Import took 0.025378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.466678 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e928e2be7e81220f1eb7723ed496d84b') in 0.028374 seconds
+  Import took 0.032418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.471518 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b78df54dbcdc5be366f14f543ec507') in 0.008696 seconds
+  Import took 0.013116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.039266 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5744c41d47c3ad6e30c955e52e354e6c') in 0.008109 seconds
+  Import took 0.011984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.551143 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5406dc0c760d4f7c35e0ceea66c52a52') in 0.027862 seconds
+  Import took 0.031827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.248273 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c86260aa7be6a2961eba7229c8dd69f') in 0.009338 seconds
+  Import took 0.013821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.332070 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abf02fb8b47df4bbab2a069273ad80c') in 0.007836 seconds
+  Import took 0.012197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.308128 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80eae5cb3dcdbbbfe8c0c81bd9648b5') in 0.027784 seconds
+  Import took 0.031526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.395763 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5973d302264e17b97434fbd00b0a601') in 0.031101 seconds
+  Import took 0.036182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.589871 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04375d75d2092ac1fa58e90b3d2359d0') in 0.029251 seconds
+  Import took 0.032823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.399620 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198e67933c5e564ae16e73f517f2618f') in 0.006111 seconds
+  Import took 0.009669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.952636 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be7602a0fa5d1fdc85c4b2bc2e1e189') in 0.010374 seconds
+  Import took 0.014446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.628268 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f004dbca6ecd9807215c21e06fb97dab') in 0.009485 seconds
+  Import took 0.014066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.268891 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b46ec5603f9d3b6f51d6170f05755ca') in 0.008631 seconds
+  Import took 0.012793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.734527 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2084df1408a8ac83003799accf9489f9') in 0.007764 seconds
+  Import took 0.011688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.347991 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86516b9cf2c34fe1ffd719ad2b80c56b') in 0.027755 seconds
+  Import took 0.031875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.728780 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a8c45624d060cf24d33f50312092c9') in 0.029039 seconds
+  Import took 0.032564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.789267 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716c6184dcc4221766c47e385b1d6f8e') in 0.007213 seconds
+  Import took 0.011896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.381344 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57f405be1b23763a44b084f16038612') in 0.026881 seconds
+  Import took 0.030617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.098725 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9c86351262e430a883f2722e36cd4c') in 0.028782 seconds
+  Import took 0.032836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.424766 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d82b8cefe7afb352d7f4f282d4b7d6') in 0.006486 seconds
+  Import took 0.009832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.338213 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a411679efadb103827587ad0c0bf11') in 0.008521 seconds
+  Import took 0.012337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.462947 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a9f4c1d84ccde8aca9529748e858f8') in 0.008800 seconds
+  Import took 0.014064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.378241 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab16cc63a443d70f55479d4fb6a1106') in 0.028750 seconds
+  Import took 0.033260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.526058 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075561e7354c1378e0f568cf767b96af') in 0.006977 seconds
+  Import took 0.010802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.428717 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec4406603e6f4517bbf1a0c24a0499d') in 0.008860 seconds
+  Import took 0.012957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.381734 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b04fafc152fc119ce17a2f3b422dbad') in 0.025363 seconds
+  Import took 0.028802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.954673 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff9549db40a8d57bc0301e3626e0431') in 0.009040 seconds
+  Import took 0.014387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316893 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4ebebc0b859c01c82c8065effedb1e') in 0.010159 seconds
+  Import took 0.014244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.616341 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedca62e11cbbaff9ad4499817eb2f22') in 0.010991 seconds
+  Import took 0.014998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.733849 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72fd9248eeb24ae6fdb6fcd7c734dd0') in 0.008465 seconds
+  Import took 0.012107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.418924 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59458cc0f4a01cf694f8df844aaf56a3') in 0.028553 seconds
+  Import took 0.033294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.545192 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0518763cb147bc5f205b7b6c4146470') in 0.009775 seconds
+  Import took 0.013639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.213295 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa05e6bf1791774041b00a4b2c59d2e9') in 0.029546 seconds
+  Import took 0.033556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.560385 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b90009b7f4c1dcb63f501a5a4883a8') in 0.026249 seconds
+  Import took 0.030040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.724690 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af77c4d81384f85c2fb2232d567aa349') in 0.026685 seconds
+  Import took 0.030221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.351789 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63024a3f33e9e276938a344c39f3e09f') in 0.007730 seconds
+  Import took 0.011435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.348131 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf7110dbcaf7f087f8bc50a74f5da56') in 0.023152 seconds
+  Import took 0.026720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.334348 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046bb0515e19a50220bc654afea92415') in 0.027738 seconds
+  Import took 0.031181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.349897 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b41a8ba2ceb9adfa6b4db0bbdc5430') in 0.008955 seconds
+  Import took 0.012974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.278441 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae27c8da74d2a188e2e02a109746fe5b') in 0.009850 seconds
+  Import took 0.013607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316074 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d6e980c441f205a335f25a8824b5b0') in 0.030685 seconds
+  Import took 0.036662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.272746 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83e5faab64934feb1196e104a0f4d19') in 0.029088 seconds
+  Import took 0.033200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.846255 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cddba318c3403455773089db1e084f0') in 0.007653 seconds
+  Import took 0.011733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.284351 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21fc35f008a33f128313c0bc8ab00f2f') in 0.007347 seconds
+  Import took 0.011453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.384189 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5112e60cfb1bb497a89a30aebc915333') in 0.009255 seconds
+  Import took 0.013419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.283890 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d5d3ba53a1d9e707c4ebba8dd8e66b') in 0.009011 seconds
+  Import took 0.013144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.480470 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f52536d4865b3d7a67be22e475cfbcd') in 0.034937 seconds
+  Import took 0.039273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.387687 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1833197f1bf70a4679e38faecceb10') in 0.006114 seconds
+  Import took 0.009369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.317000 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84acd37ce315db21932ff23d455079c4') in 0.027513 seconds
+  Import took 0.031947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.245701 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cdafc21517d78e1bff6a411db6a62f') in 0.026233 seconds
+  Import took 0.030321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.291457 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca1b847b6819cb39b3645cbb5cf57ba') in 0.028385 seconds
+  Import took 0.032806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.727196 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2912c6d1041321865465c7e0d43c6cb') in 0.009003 seconds
+  Import took 0.013421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.314275 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f003d17e5471e371ab04ac0cc9071d79') in 0.034276 seconds
+  Import took 0.039202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.317343 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d689882f43c285913b5b253f14dbe01') in 0.028314 seconds
+  Import took 0.032056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.689854 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8591e1861234278dabf5dc7f5f6df67e') in 0.011995 seconds
+  Import took 0.016604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.261545 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd85ad3835fc98244f3fd14359f1dd92') in 0.008312 seconds
+  Import took 0.012326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.263872 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb5022656808ff3506ed3bdbab4ae65') in 0.029187 seconds
+  Import took 0.033388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.386512 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a4cc44c69b541fdf24f4b8ab1fa60e') in 0.027861 seconds
+  Import took 0.031656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.314384 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e03f74ca231b861cefacffe2015ee1') in 0.009031 seconds
+  Import took 0.013039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.565289 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399eade94ac3c6072540162506224650') in 0.008067 seconds
+  Import took 0.011865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.466699 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29ac67527e4a5d3bba90dfbf44737a3') in 0.007624 seconds
+  Import took 0.011063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.844827 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aea0929eb25a0d657513053e0b9be3a') in 0.009467 seconds
+  Import took 0.013250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.282635 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f41ff979cd5d9deb472f7586b216cb4') in 0.008065 seconds
+  Import took 0.011834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.264401 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12f71762c7792789017ff6a47a459a1') in 0.028352 seconds
+  Import took 0.033216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.426573 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c69dd2337d3f698dc27c6f9f038e22') in 0.007923 seconds
+  Import took 0.011273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.471417 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd70d1b6fee7c612541c560bba039cc') in 0.007501 seconds
+  Import took 0.011317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.838981 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb645c31babeaf3fac3b47f6d0015cd') in 0.029017 seconds
+  Import took 0.038135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.274173 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5725ef8f74e4a133a612d1b3d89fc44d') in 0.008016 seconds
+  Import took 0.012538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.378903 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289855388ec37d8c53c5fba1efb200a0') in 0.021979 seconds
+  Import took 0.026513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.019454 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd414b8997774b0ce48ee53eabc288778') in 0.008556 seconds
+  Import took 0.012795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.554034 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e708df24851f304215e920bf387b4e') in 0.027673 seconds
+  Import took 0.031854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.243038 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53dee2fe11f24be31716145e949b0082') in 0.027409 seconds
+  Import took 0.030883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.596514 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e6af79b0f3066cd136fc8349e53bd7') in 0.029194 seconds
+  Import took 0.034153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.324569 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5191c73d7e015f77e71676c7411f9ebc') in 0.027442 seconds
+  Import took 0.030901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.653338 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2faff33d6b4547426b99f8222284d72a') in 0.013463 seconds
+  Import took 0.018689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.259369 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40af29ff9cb28ba260229c64b3105a33') in 0.027878 seconds
+  Import took 0.031648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.693950 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713fdf96ff4acc5f681d4437bfac2b37') in 0.028585 seconds
+  Import took 0.032505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.583980 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab97d68222e75acbaaa43f4e2bd5b0b3') in 0.012062 seconds
+  Import took 0.018295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.342732 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff33be4f0e02263dc195d38c0c9868c9') in 0.010133 seconds
+  Import took 0.014152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.138900 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c51e870f100596925144afaed85aa59') in 0.027671 seconds
+  Import took 0.032233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.360984 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1101bf6a410172a820675ff36d05136') in 0.029275 seconds
+  Import took 0.033005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.441200 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a523aeec96e8eea76d6a2784f56f84') in 0.008199 seconds
+  Import took 0.012429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.342783 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac5ebf21d4976ace11ef8954180b364') in 0.028987 seconds
+  Import took 0.032979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.563841 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6bde14b7d8b7d7bac34013fdaf7303') in 0.008778 seconds
+  Import took 0.013210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.281831 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e728d09b5fe12906f4494b6c9cdddbc8') in 0.010372 seconds
+  Import took 0.017150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.394165 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b2ea89ae41bbcd065e1c0401da2da9') in 0.008567 seconds
+  Import took 0.012491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.279238 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af389eb85e3b63636816dd705d14ba7') in 0.018640 seconds
+  Import took 0.024514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.706720 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24844f1ba89f73ac8d878125153f845') in 0.013931 seconds
+  Import took 0.018097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.454336 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e2b281fe5c5752a506a0b1f4a756ec') in 0.009382 seconds
+  Import took 0.013483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.380517 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6c32674f2893e86f19fcce6a2e367c') in 0.028688 seconds
+  Import took 0.033108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.330144 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011a98f8ab9ec16c307dffed2a578ca0') in 0.029554 seconds
+  Import took 0.035004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.243494 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c8ac2cf87883f8ef749832da46f290') in 0.025777 seconds
+  Import took 0.030140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.345648 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9f2cb46c01edb0b4b22f5e0b2251df') in 0.008715 seconds
+  Import took 0.013012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.313944 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9bce9f9f1aba215a1318969b95bd29') in 0.029649 seconds
+  Import took 0.033665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.416248 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6116f32a1b5bcb9bf247cd9bebe237') in 0.008495 seconds
+  Import took 0.013101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.412656 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba86a0f1d8a2c193e3693cad6aa08fc5') in 0.029434 seconds
+  Import took 0.034012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.634749 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c687d54d30e3f7a7646489d9461ab9') in 0.007454 seconds
+  Import took 0.011176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.353479 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cb4762d10c9158952584e30b3b0ac5') in 0.028874 seconds
+  Import took 0.032602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.238220 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce6c005f29a967e4a57d28920372fbc') in 0.025124 seconds
+  Import took 0.028935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.381548 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fdc1ff25d6c601f3935eefdafad824') in 0.007859 seconds
+  Import took 0.013426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.546727 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ce5bb23e61aa6f3a469e5d0234101d') in 0.030669 seconds
+  Import took 0.034882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.419672 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78d1dafbbbd269d0b944a83c3eacb8c') in 0.028298 seconds
+  Import took 0.033834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.961016 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d0cff407d0f5ded64b6662104c2d48') in 0.028332 seconds
+  Import took 0.033075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.680417 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be3d49cbdf9bb298d0000c320916e36') in 0.008352 seconds
+  Import took 0.012707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.270384 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7696fd22f126e9b393a5bfa71c275af4') in 0.029700 seconds
+  Import took 0.034147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.232190 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b052c32014794fa8e2da87d5fab407') in 0.039629 seconds
+  Import took 0.044257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.508163 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac44eef9ede7e460123cc3046546927b') in 0.027861 seconds
+  Import took 0.031691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.862034 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4c6027bb9ad4d2d34675b64d5d6aab') in 0.030123 seconds
+  Import took 0.035277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.407725 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3b52688d28b2da905d53c121b3044c') in 0.009841 seconds
+  Import took 0.014433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.449769 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b769d92526e6ea72ab939c5a937d63b') in 0.028946 seconds
+  Import took 0.033132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.528917 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c37898c09d5ab2a32d91b4e305cbd3') in 0.008323 seconds
+  Import took 0.012530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.007874 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e7f9b0fe1eb89a5db212b3853f1ed9') in 0.028752 seconds
+  Import took 0.033238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.312486 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625ea47a52f533db6835f2c8eee52627') in 0.009664 seconds
+  Import took 0.013834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.258983 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f80c9a1ce57807906315be30f4d2a12') in 0.027516 seconds
+  Import took 0.031475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.243538 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3655cf7bff21ae7847171974ed7d412e') in 0.015614 seconds
+  Import took 0.020443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.260027 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcac2988fa37311aaf7709b8ef43af28') in 0.029144 seconds
+  Import took 0.033181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.545956 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe17cb27983d202b271d80ac0b093a36') in 0.008601 seconds
+  Import took 0.012443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.648002 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59af0baad5b42cd26aa2ef909bdb3d97') in 0.006234 seconds
+  Import took 0.010013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.377874 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4b33eb712f9897df51f50de2329d8e') in 0.027885 seconds
+  Import took 0.031938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.909908 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22e46df983981b09f28df9a555f2a97') in 0.030493 seconds
+  Import took 0.034794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.874734 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f236122dd86161d655f0be29894476') in 0.009884 seconds
+  Import took 0.013708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.260092 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a03944a17317be70398b7bd65cc3a5c') in 0.029369 seconds
+  Import took 0.033986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.325614 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1ef43f5b02541d0b2929c7600c5114') in 0.029330 seconds
+  Import took 0.033207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.710874 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd467fadf4150bf2a1f48a714a63b4b1a') in 0.014767 seconds
+  Import took 0.019155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.258028 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8269b2780d587fa88887e0cd0e7894dd') in 0.028462 seconds
+  Import took 0.032158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.246377 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469b6f6958a8fc528882d4dd6e4745e8') in 0.026573 seconds
+  Import took 0.030316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.495982 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f508ee7149bf08764c2a83cdc1d1c414') in 0.027832 seconds
+  Import took 0.031325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.509830 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a49a2e7897467cffcb45b896971635') in 0.010177 seconds
+  Import took 0.014613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.347210 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48b0e20c54bdfd6f8d960c164ad1b01') in 0.027509 seconds
+  Import took 0.031252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.661255 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d255c4a7ce207c9e86f1454c43f8407') in 0.027671 seconds
+  Import took 0.031490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.929264 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd645bdbb7abc040ddc2359c4de78e1') in 0.006307 seconds
+  Import took 0.009677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.783313 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44fa825f4bfb0170a18baf013411ae24') in 0.028585 seconds
+  Import took 0.032515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.327024 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d26c6177467fa72879c2560d00bb931') in 0.028838 seconds
+  Import took 0.033313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.021021 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f90461aa03b9b78d5636e83ebcd355c') in 0.024837 seconds
+  Import took 0.029023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.515806 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b1ff8ca518b507fcdc4e6680d3c440') in 0.013377 seconds
+  Import took 0.020266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.810404 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f0ad033aee38773b341a675ef0dadc') in 0.029385 seconds
+  Import took 0.033540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.625297 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c03500fba83dcdf132915c27e87341') in 0.028722 seconds
+  Import took 0.032531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.494302 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7596917b6a4000ab01aa1ee3bdf46e7c') in 0.009594 seconds
+  Import took 0.013355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.399070 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ece6954d77c20efcf88a67aa0466af') in 0.007417 seconds
+  Import took 0.011204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.715835 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84dc26d802c29f9c1ce2753ca43970ad') in 0.009533 seconds
+  Import took 0.013639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.446695 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d692ef263c19f502ea9b1c14110c034') in 0.036829 seconds
+  Import took 0.041288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.320383 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377ecc0a5c403750a2014d185e37043d') in 0.028947 seconds
+  Import took 0.032692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.876009 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf343ec5807c7a096678bbecf39f838') in 0.010609 seconds
+  Import took 0.014806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.738155 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca104d9d2d5957192d0476c3ce1fb22') in 0.028062 seconds
+  Import took 0.031934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.731978 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1da291a077b0aed950f1b1f78ad0bc') in 0.037739 seconds
+  Import took 0.041823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.402547 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ff261c581d614c75f0558f1c0bcd95') in 0.007954 seconds
+  Import took 0.012035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.681349 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555d1423bc27b18bb89145d3bc2af086') in 0.029206 seconds
+  Import took 0.033436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.395009 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1026499b6bf56c4d2a0c6ba9fb9a74') in 0.028795 seconds
+  Import took 0.032962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.561427 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b127a8c3d6b8eeb13d479b29ffff08e') in 0.009797 seconds
+  Import took 0.014027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.434953 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0094020a0bbed34d7ef66d4522d4ad1') in 0.008228 seconds
+  Import took 0.012092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.548187 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e344a88bc361cc44b56e4d9d0f0b29a3') in 0.027367 seconds
+  Import took 0.031449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.245825 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409bcdeccc98c06082682d1d4ceade95') in 0.012974 seconds
+  Import took 0.018113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.575413 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7c0ecaa23dae3ad15574b4093bf676') in 0.027696 seconds
+  Import took 0.031605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.352086 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6183a7c22684ed9a66adc8eeac741e85') in 0.011652 seconds
+  Import took 0.015643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.143155 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a0050e23c6de7d09abc7da176939ee') in 0.036798 seconds
+  Import took 0.042205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.270538 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8df770fa05229ef857e755703a409d') in 0.030533 seconds
+  Import took 0.035090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.458247 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27abda2fc9ed54793af427a725371174') in 0.024530 seconds
+  Import took 0.028175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.578990 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba508aad078b1b28f8ff1d5d1069431') in 0.011133 seconds
+  Import took 0.015804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.345988 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e91c6742988897c8f90e9e7d959b1b8') in 0.028878 seconds
+  Import took 0.033972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.560701 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0716f1c59cf3f0b54833c34ec43255') in 0.035304 seconds
+  Import took 0.040507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.267651 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72995d7a7fb847aade8d5633614316ec') in 0.028189 seconds
+  Import took 0.032008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.270085 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b27347c928994f3de3fc10e7d7761c4') in 0.008014 seconds
+  Import took 0.011980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.347240 seconds.
+  path: Assets/Saved Game/Puzzle Status Game.json
+  artifactKey: Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saved Game/Puzzle Status Game.json using Guid(ad56aa6dce0e37f4980548dcb69c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8206efc944bbdb704d67cafe26f0488c') in 0.009746 seconds
+  Import took 0.013811 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000756 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.637 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2310.
+Total: 1.709500 ms (FindLiveObjects: 0.176700 ms CreateObjectMapping: 0.044800 ms MarkObjects: 1.474600 ms  DeleteObjects: 0.012500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 803.507488 seconds.
+  path: Assets/Scripts/Game Core/Puzzle System/PuzzleSystem_EnableClickPieces.cs
+  artifactKey: Guid(443d344d5c3e7e745a222df84077702d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game Core/Puzzle System/PuzzleSystem_EnableClickPieces.cs using Guid(443d344d5c3e7e745a222df84077702d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfbd796479c310ca38b9c12cb3d35c9') in 0.005572 seconds
+  Import took 0.008627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Scripts/Game Core/Puzzle System/PuzzleSystem_EnableClickPieces.cs
+  artifactKey: Guid(443d344d5c3e7e745a222df84077702d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game Core/Puzzle System/PuzzleSystem_EnableClickPieces.cs using Guid(443d344d5c3e7e745a222df84077702d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfbd796479c310ca38b9c12cb3d35c9') in 0.001948 seconds
+  Import took 0.004275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.039962 seconds.
+  path: Assets/Scripts/Game Core/Puzzle System/PuzzleSystem_DefineGame.cs
+  artifactKey: Guid(655de0346d3f95545ae325324e0f06a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game Core/Puzzle System/PuzzleSystem_DefineGame.cs using Guid(655de0346d3f95545ae325324e0f06a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417dc83ef2345697146020d7abf716ba') in 0.001865 seconds
+  Import took 0.004365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.081161 seconds.
+  path: Assets/Scripts/Mechanics/Pieces/PieceInteraction.cs
+  artifactKey: Guid(2a6b459cc54a3a44da7ff6170c405559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanics/Pieces/PieceInteraction.cs using Guid(2a6b459cc54a3a44da7ff6170c405559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c00e29ceaf2d6982d799ff0fe59aaa') in 0.002725 seconds
+  Import took 0.005853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.820102 seconds.
+  path: Assets/Scripts/ScriptableObjects/PuzzleGameStatusData.cs
+  artifactKey: Guid(3a36de08b3eae2741a71017c64defa97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/PuzzleGameStatusData.cs using Guid(3a36de08b3eae2741a71017c64defa97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d31f986b12cd1ebcf1fb904257d2674') in 0.002054 seconds
+  Import took 0.004958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.515120 seconds.
+  path: Assets/Scripts/Extensions/RandomExtension.cs
+  artifactKey: Guid(86a52d75649e74555993ea6016ab31a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Extensions/RandomExtension.cs using Guid(86a52d75649e74555993ea6016ab31a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495b30fcb1b05460db0474c189b773ef') in 0.002809 seconds
+  Import took 0.005611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.933824 seconds.
+  path: Assets/Scripts/Extensions/TransformExtension.cs
+  artifactKey: Guid(7740301dddd0f43328de7b43d02b8298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Extensions/TransformExtension.cs using Guid(7740301dddd0f43328de7b43d02b8298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c1f8fee8f957fe12d56964b1f52c62') in 0.005087 seconds
+  Import took 0.007927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.698342 seconds.
+  path: Assets/Sounds/SFX/BUTTON_Clean_Tap_mono.wav
+  artifactKey: Guid(f59cd55aab8feaf498b0c460e1f6bbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/SFX/BUTTON_Clean_Tap_mono.wav using Guid(f59cd55aab8feaf498b0c460e1f6bbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93e8b5a7b89777784a35bf61f9c38cf') in 0.102203 seconds
+  Import took 0.104905 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000848 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.669 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.7 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2323.
+Total: 1.596900 ms (FindLiveObjects: 0.152700 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.392700 ms  DeleteObjects: 0.013000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000822 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.623 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2327.
+Total: 1.647000 ms (FindLiveObjects: 0.188100 ms CreateObjectMapping: 0.038200 ms MarkObjects: 1.407600 ms  DeleteObjects: 0.012400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001320 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.653 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2331.
+Total: 1.883300 ms (FindLiveObjects: 0.200800 ms CreateObjectMapping: 0.039600 ms MarkObjects: 1.625000 ms  DeleteObjects: 0.017000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000833 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.630 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2335.
+Total: 1.554800 ms (FindLiveObjects: 0.141400 ms CreateObjectMapping: 0.037600 ms MarkObjects: 1.362000 ms  DeleteObjects: 0.012800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001211 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.689 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2339.
+Total: 1.610900 ms (FindLiveObjects: 0.151700 ms CreateObjectMapping: 0.037900 ms MarkObjects: 1.407500 ms  DeleteObjects: 0.013000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000766 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.699 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 2.476600 ms (FindLiveObjects: 0.315800 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.064800 ms  DeleteObjects: 0.014400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001039 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.788 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2347.
+Total: 2.020400 ms (FindLiveObjects: 0.181200 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.777700 ms  DeleteObjects: 0.015200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001185 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.120 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2351.
+Total: 2.466300 ms (FindLiveObjects: 0.259000 ms CreateObjectMapping: 0.072600 ms MarkObjects: 2.114700 ms  DeleteObjects: 0.018700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
